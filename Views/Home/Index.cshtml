@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*Welcome to our website.Today is @DateTime.Now
+    All rights reserved with shabahat &copy; @DateTime.Now.Year*@
+
+
+@*@{
+        string greeting = "Welcome to our website";
+        var today = DateTime.Now.ToShortDateString();
+    }
+    <p>@greeting,today is @today</p>*@
+
+
+@*@{
+        int a = 10;
+
+        if(a==10)
+        {
+            <p>you are the winner</p>
+        }
+                else
+                {
+                    <p>you have lost the match</p>
+                }
+
+    }*@
+
+
+@*@{
+
+        for (int i = 1; i <= 10; i++)
+        {
+            <p>@i</p>
+        }
+    }*@
+
+@{
+    string[] fruits = { "Apple", "Orange", "Banana", "Pineapple" };
+    foreach (var fruit in fruits)
+    {
+        <p>@fruit</p>
+    }
+}
